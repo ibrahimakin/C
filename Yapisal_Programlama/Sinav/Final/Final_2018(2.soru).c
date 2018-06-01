@@ -1,7 +1,7 @@
 #include <stdlib.h>
 #include <stdio.h>
 
-//OGR yapisinda dizideki elemanlarý vize ve numaralara gore siralama
+//OGR yapisinda dizideki elemanlari vize ve numaralara gore siralama
 
 typedef struct{
     char isim[10];
