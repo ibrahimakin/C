@@ -4,15 +4,15 @@
 //Stringteki Rakamlari Ayirma,  Ornegin; Str1 = 123ce45 , Str2 = 123  45
 
 void fonk(char *ptr1, char *ptr2){
-	//int i=0; dizi olarak denendiðinde
+	//int i=0; dizi olarak denendiginde
 	while(*ptr1!='\0'){
 		if(isdigit(*ptr1)){
 			*ptr2=*ptr1;    // ptr2[i]
-			ptr2++;		    // i++;
+			ptr2++;		// i++;
 		}
 		else{
-            *ptr2=' ';
-            ptr2++;
+			*ptr2=' ';
+			ptr2++;
 		}
 		ptr1++;
 	}
